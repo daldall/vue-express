@@ -17,7 +17,7 @@ const validateUser = [
             }
             return true;
         }),
-    body('password').isLength({ min: 6 }).withMessage('Password must be at least 6 characters long'),
+    body('password').isLength({ min: 6 }).withMessage('Passwordd must be at least 6 characters long'),
 ];
 
 module.exports = { validateUser }
